@@ -1,0 +1,239 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#feature1
+{
+   font-size: 20px;
+   margin-top: 10px;
+}
+#cover
+{
+   margin-top: 12px;
+}
+
+#pa
+{
+   height:40px;
+}
+#lis ul li
+{
+margin:10px;
+list-style-type: none;
+}
+#middcenter
+{
+   
+   background: url(../../images/b1.jpg )no-repeat;
+}
+#moreinfo
+{
+   font-size: 19px;
+   margin-top: 15px;
+  
+
+  
+}
+
+#moredata
+{
+  margin-top: 20px;
+ 
+  color:black;
+}
+#morecourses h3
+{
+   text-align: center;
+}
+
+a
+{
+   color: cyan;
+}
+
+
+#morecontent
+{
+   margin-top: 80px;
+}
+.simple-list
+{
+   padding: 0;
+}
+
+
+footer
+{
+   background: gray;
+   color:black;
+   font-size: 11px;
+   padding:20px;
+ 
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+ul.unstyled
+{
+   list-style: none;
+   padding:0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   #center
+   {
+     margin-left: 60px;
+      margin-top: 7px;
+     
+   }
+   #right
+   {
+      margin-top: 19px;
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+  #myCarousel {
+   margin-top:100px;
+}
+
+.carousel-caption {
+   font-size: 14px;
+  
+  
+}
+.carousel-caption h4 {
+   font-size: 20px;
+   color:red;
+  
+  
+}
+
+
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/med1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/med2.png') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/med3.jpg') top center no-repeat;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well
+{
+   margin:20px 0;
+}
+
+
+.thumbnails
+{
+   margin:20px 0;
+}
+
+.thumbnail
+{
+   position: relative;
+}
+
+.thumbnail h3
+{
+   font-size: 16px;
+   margin:0 0 10px;
+   line-height: 20px;
+}
+
+.thumbnail .price
+
+{
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   padding: 10px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+.thumbnail .price
+{
+   font-size: 12px;
+}
+   
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+      background: url('../../images/small1.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/small2.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/small3.jpg') top center no-repeat;
+   }
+   
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+
+   #myCarousel .item { height: 500px; }
+   
+   #slide1 {
+      background: url('../../images/111.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/211.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/3.jpg') top center no-repeat;
+   }
+
+	
+}
